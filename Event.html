@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <style>
+        .rectangle{
+            width: 800px;
+            height:450px;
+            display:block;
+            background-color:white;
+            border: 2px solid black;
+            position: absolute;
+        }
+        .form{
+           text-align:right;
+           margin: 20px 0 0 150px;
+           
+        }
+        
+    </style>
+</head>
+<body>
+  <div class="rectangle">
+    <div  style="text-align: center; font-size:25px;font-weight: bolder;margin-top: 20px;">Event 1</div><br/>
+   <div style="text-align: center;font-size:20px;margin-bottom: 10px;margin-top: 10px;">Number of available seats: 23</div>
+   <div style="width: 715px; height: 250px;background-color: white;border: 1px solid black;margin:50px 0 0 35px;display: flex;">
+  <div style="width:180px;height:150px;background-color:white;border:1px solid black;margin: 20px 0 0 25px;display: flex;align-items: center;justify-content:space-around;">
+<div style="width: 100px;height: 100px;background-color: white;border:1px solid black ;border-radius: 50%;text-align: center;"><span style ="height: 100%;display: flex;justify-content: center;align-items: center;">Image</span></div>
+
+</div>
+   <div>
+    <form class="form">
+        <label>Name :</label> <input type="text"; style="margin:0 0 20px 0;"/><br/>
+        <label>Email :</label> <input type="text"; style="margin:0 0 20px 0;"/><br/>
+        <label>Phone number :</label> <input type="text"; style="margin:0 0 20px 0;"/><br/>
+        <label>Number of seats :</label> <select style="margin:0 140px 20px 0;"><option>1</option><option>2</option></select><br/>
+        <label>Name of Attendee 2 :</label> <input type="text";style="margin:0 0 20px 0;"/><br/>
+        <button style="margin:10px 50px 200px 0">Submit</button><button style="margin:10px 50px 200px 10px">Cancel</button>
+    </form>
+  </div>
+</body>
+</html>
